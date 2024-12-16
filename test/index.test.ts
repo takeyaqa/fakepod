@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import app from '../src/app'
+import app from '../src/index'
 
 describe('MagicPod Web API v1.0', () => {
 

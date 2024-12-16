@@ -1,4 +1,4 @@
-name: fakepod
+name: test
 
 on:
   push:

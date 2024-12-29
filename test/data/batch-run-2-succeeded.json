@@ -1,0 +1,267 @@
+{
+  "organization_name": "FakeOrganization",
+  "project_name": "FakeProject",
+  "batch_run_number": 2,
+  "test_setting_name": "Fake Test Setting",
+  "branch_name": "main",
+  "status": "succeeded",
+  "status_number": 1,
+  "started_at": "2024-01-02T03:00:00Z",
+  "finished_at": "2024-01-02T03:25:00Z",
+  "duration_seconds": 1500,
+  "test_cases": {
+    "succeeded": 10,
+    "total": 10,
+    "details": [
+      {
+        "pattern_name": "fake_pattern_01",
+        "included_labels": [],
+        "excluded_labels": [],
+        "pattern": {
+          "number": 1,
+          "name": "Android13_Pixel6",
+          "environment": "magic_pod",
+          "os": "android",
+          "device_type": "arm64_v8a_emulator",
+          "version": "13.0",
+          "model": "Pixel 6",
+          "app_type": "app_file",
+          "app_file_number": 2,
+          "app_url": null,
+          "app_path": null,
+          "bundle_id": null,
+          "app_package": null,
+          "app_activity": null
+        },
+        "results": [
+          {
+            "order": 1,
+            "test_case": {
+              "number": 1,
+              "name": "Test Case No.1",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/1/",
+              "step_count": 10
+            },
+            "number": 1,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:00:00Z",
+            "finished_at": "2024-01-02T03:05:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/1/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/1/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/1/1/device-log/"
+          },
+          {
+            "order": 2,
+            "test_case": {
+              "number": 2,
+              "name": "Test Case No.2",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/2/",
+              "step_count": 10
+            },
+            "number": 2,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:05:00Z",
+            "finished_at": "2024-01-02T03:10:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/2/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/2/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/2/1/device-log/"
+          },
+          {
+            "order": 3,
+            "test_case": {
+              "number": 3,
+              "name": "Test Case No.3",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/3/",
+              "step_count": 10
+            },
+            "number": 3,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:10:00Z",
+            "finished_at": "2024-01-02T03:15:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/3/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/3/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/3/1/device-log/"
+          },
+          {
+            "order": 4,
+            "test_case": {
+              "number": 4,
+              "name": "Test Case No.4",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/4/",
+              "step_count": 10
+            },
+            "number": 4,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:15:00Z",
+            "finished_at": "2024-01-02T03:20:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/4/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/4/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/4/1/device-log/"
+          },
+          {
+            "order": 5,
+            "test_case": {
+              "number": 5,
+              "name": "Test Case No.5",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/5/",
+              "step_count": 10
+            },
+            "number": 5,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:20:00Z",
+            "finished_at": "2024-01-02T03:25:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/5/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/5/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/1/5/1/device-log/"
+          }
+        ]
+      },
+      {
+        "pattern_name": "fake_pattern_02",
+        "included_labels": [],
+        "excluded_labels": [],
+        "pattern": {
+          "number": 2,
+          "name": "Android12_Pixel6",
+          "environment": "magic_pod",
+          "os": "android",
+          "device_type": "arm64_v8a_emulator",
+          "version": "12.0",
+          "model": "Pixel 6",
+          "app_type": "app_file",
+          "app_file_number": 2,
+          "app_url": null,
+          "app_path": null,
+          "bundle_id": null,
+          "app_package": null,
+          "app_activity": null
+        },
+        "results": [
+          {
+            "order": 1,
+            "test_case": {
+              "number": 1,
+              "name": "Test Case No.1",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/1/",
+              "step_count": 10
+            },
+            "number": 1,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:00:00Z",
+            "finished_at": "2024-01-02T03:05:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/1/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/1/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/1/1/device-log/"
+          },
+          {
+            "order": 2,
+            "test_case": {
+              "number": 2,
+              "name": "Test Case No.2",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/2/",
+              "step_count": 10
+            },
+            "number": 2,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:05:00Z",
+            "finished_at": "2024-01-02T03:10:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/2/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/2/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/2/1/device-log/"
+          },
+          {
+            "order": 3,
+            "test_case": {
+              "number": 3,
+              "name": "Test Case No.3",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/3/",
+              "step_count": 10
+            },
+            "number": 3,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:10:00Z",
+            "finished_at": "2024-01-02T03:15:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/3/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/3/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/3/1/device-log/"
+          },
+          {
+            "order": 4,
+            "test_case": {
+              "number": 4,
+              "name": "Test Case No.4",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/4/",
+              "step_count": 10
+            },
+            "number": 4,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:15:00Z",
+            "finished_at": "2024-01-02T03:20:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/4/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/4/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/4/1/device-log/"
+          },
+          {
+            "order": 5,
+            "test_case": {
+              "number": 5,
+              "name": "Test Case No.5",
+              "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/5/",
+              "step_count": 10
+            },
+            "number": 5,
+            "status": "succeeded",
+            "started_at": "2024-01-02T03:20:00Z",
+            "finished_at": "2024-01-02T03:25:00Z",
+            "duration_seconds": 300,
+            "data_patterns": null,
+            "note": null,
+            "errors": [],
+            "test_run_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/5/1/test-run-log/",
+            "test_engine_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/5/1/test-engine-log/",
+            "device_log_url": "https://app.fakepod.example.com/api/v1.0/FakeOrganization/FakeProject/batch-run/2/2/5/1/device-log/"
+          }
+        ]
+      }
+    ]
+  },
+  "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/2/",
+  "executed_via": "web_api",
+  "executed_by": "John Doe"
+}

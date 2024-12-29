@@ -1,0 +1,182 @@
+{
+  "organization_name": "FakeOrganization",
+  "project_name": "FakeProject",
+  "batch_runs": [
+    {
+      "batch_run_number": 200,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "succeeded",
+      "status_number": 1,
+      "started_at": "2024-07-18T03:00:00Z",
+      "finished_at": "2024-07-18T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 10,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/200/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 199,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "failed",
+      "status_number": 2,
+      "started_at": "2024-07-17T03:00:00Z",
+      "finished_at": "2024-07-17T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 4,
+        "failed": 6,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/199/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 198,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "succeeded",
+      "status_number": 1,
+      "started_at": "2024-07-16T03:00:00Z",
+      "finished_at": "2024-07-16T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 10,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/198/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 197,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "failed",
+      "status_number": 2,
+      "started_at": "2024-07-15T03:00:00Z",
+      "finished_at": "2024-07-15T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 4,
+        "failed": 6,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/197/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 196,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "succeeded",
+      "status_number": 1,
+      "started_at": "2024-07-14T03:00:00Z",
+      "finished_at": "2024-07-14T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 10,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/196/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 195,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "failed",
+      "status_number": 2,
+      "started_at": "2024-07-13T03:00:00Z",
+      "finished_at": "2024-07-13T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 4,
+        "failed": 6,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/195/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 194,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "succeeded",
+      "status_number": 1,
+      "started_at": "2024-07-12T03:00:00Z",
+      "finished_at": "2024-07-12T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 10,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/194/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 193,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "failed",
+      "status_number": 2,
+      "started_at": "2024-07-11T03:00:00Z",
+      "finished_at": "2024-07-11T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 4,
+        "failed": 6,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/193/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 192,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "succeeded",
+      "status_number": 1,
+      "started_at": "2024-07-10T03:00:00Z",
+      "finished_at": "2024-07-10T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 10,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/192/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    },
+    {
+      "batch_run_number": 191,
+      "test_setting_name": "Fake Test Setting",
+      "branch_name": "main",
+      "status": "failed",
+      "status_number": 2,
+      "started_at": "2024-07-09T03:00:00Z",
+      "finished_at": "2024-07-09T03:25:00Z",
+      "duration_seconds": 1500,
+      "test_cases": {
+        "succeeded": 4,
+        "failed": 6,
+        "total": 10
+      },
+      "url": "https://app.fakepod.example.com/FakeOrganization/FakeProject/batch-run/191/",
+      "executed_via": "web_api",
+      "executed_by": "John Doe"
+    }
+  ],
+  "total_count": 200
+}

@@ -85,7 +85,7 @@ export class BatchRunGenerator {
               app_path: null,
               bundle_id: null,
               app_package: null,
-              app_activity: null
+              app_activity: null,
             },
             results: detailsResult01,
           },
@@ -107,7 +107,7 @@ export class BatchRunGenerator {
               app_path: null,
               bundle_id: null,
               app_package: null,
-              app_activity: null
+              app_activity: null,
             },
             results: detailsResult02,
           },
@@ -150,7 +150,7 @@ export class BatchRunGenerator {
         number: order,
         name: `Test Case No.${order}`,
         url: `https://app.fakepod.example.com/${this.organizationName}/${this.projectName}/${order}/`,
-        step_count: 10
+        step_count: 10,
       },
       number: order,
       status: status,

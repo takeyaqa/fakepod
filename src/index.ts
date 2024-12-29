@@ -1,13 +1,29 @@
 import { Hono } from 'hono'
+import { bearerAuth } from 'hono/bearer-auth'
 import { BatchRunGenerator } from './batch-run-generator'
 
 const app = new Hono().basePath('/api/v1.0')
 
+const VALID_TOKEN = '4uKNEY5hE4w3WCxi'
+const VALID_ORGANIZATION_NAME = 'FakeOrganization'
+const VALID_PROJECT_NAME = 'FakeProject'
 const DEFAULT_COUNT = 20
 const MINIMUM_COUNT = 1
 const MAXIMUM_COUNT = 500
 const MINIMUM_BATCH_RUN_NUMBER = 1
 const MAXIMUM_BATCH_RUN_NUMBER = 200
+
+app.use(
+  '/:organizationName/:projectName/*',
+  bearerAuth({
+    prefix: 'Token',
+    verifyToken: (token, c) => {
+      return token === VALID_TOKEN
+        && c.req.param('organizationName') === VALID_ORGANIZATION_NAME
+        && c.req.param('projectName') === VALID_PROJECT_NAME
+    }
+  })
+)
 
 app.post('/:organizationName/:projectName/batch-run/', (c) => {
   c.status(501)
